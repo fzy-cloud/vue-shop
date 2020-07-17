@@ -56,7 +56,7 @@
 				</a>
 			</div>
 			<div class="banner">
-				<a :href="'/#/product/30'+item.id">
+				<a :href="'/#/product/30'">
 					<img src="/imgs/banner-1.png" alt="">
 				</a>
 			</div>
