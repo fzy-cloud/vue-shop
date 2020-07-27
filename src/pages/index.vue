@@ -11,7 +11,7 @@
 									<li v-for="(sub, j) in item" :key="j">
 										<a :href="sub?'/#/product/'+sub.id:''">
 											<img :src="sub ? sub.img:'/imgs/item-box-1.png'" alt="">
-											{{sub?sub.name:'小米9'}}
+											{{sub?sub.name:'小米10'}}
 										</a>
 									</li>
 								</ul>
